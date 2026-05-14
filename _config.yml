@@ -23,7 +23,7 @@ linkedin_username: patrik-beka-6a0326155
 
 # About Section
 about_title: Summary
-about_profile_image: images/profile-photo.jpg
+about_profile_image: images/profile-photo-new.png
 about_content: |
   Senior Java developer with 7+ years of experience building algorithmic trading systems for European energy and commodities markets, including Slovak, Czech, and Ukrainian power markets. Specializing in intraday power trading, real-time market data processing, and automated order execution using Java and Spring Boot.
 content:
