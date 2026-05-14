@@ -7,147 +7,142 @@ version: 2
 
 # Personal info
 name: Patrik Beka
-title: Software Engineer
+title: Senior Java Engineer | Energy Trading & Algorithmic Systems
 email: patrik.beka@gmail.com
 website: www.github.com/BekyP
+header_info: "Bratislava, Slovakia | Born: 25.11.1995"
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username:  BekyP
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+github_username: BekyP
 instagram_username: patrik.beka
 linkedin_username: patrik-beka-6a0326155
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-#additional_links:
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: Summary
 about_profile_image: images/profile-photo.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Patrik and I'm currently working as a Senior Sofware Engineer in the energy industry. In my short, but eventful career in software development I had the chance to work in multiple domains - from betting, through telecommunications, banking and so on all the way to energetics. All of them had something in common - delivering functionality in high quality and on time.
-
-  The key principles for me are mutual respect, team work, clean coding (KISS, DRY, etc.) and testability - I am the one who gets things done. 
-
-  ... and I am looking for new interesting projects, so don`t hesitate to hit me up :) 
-
+about_content: |
+  Senior Java developer with 7+ years of experience building algorithmic trading systems for European energy and commodities markets, including Slovak, Czech, and Ukrainian power markets. Specializing in intraday power trading, real-time market data processing, and automated order execution using Java and Spring Boot.
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Core Competencies
+    layout: text
+    content: |
+      **Trading & Domain:** Intraday & Day-Ahead Energy Trading, Algorithmic Trading Systems, Real-Time Energy Optimization, Market Data Processing
+
+      **Engineering:** Java (8–25, 7+ years), Spring Boot (5+ years), Kafka, Apache Spark, Micronaut, Kotlin, Ktor, Python, R
+
+      **Infrastructure:** AWS (ECS, Lambda, EMR), Docker, Kubernetes, Terraform, Ansible, PostgreSQL, TimescaleDB, ElasticSearch, Prometheus, Grafana
+
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: PowereX j.s.a.
-        link: powerex.io
-        # link_text: boringcompany.com
-        sub_title: Senior Software Engineer
-        caption: September 2019 - Present
+        sub_title: Senior Software Engineer – Energy Trading Systems
+        caption: July 2025 - Present | Bratislava
+        description: |
+          Leading development of trading and forecasting systems for EU energy markets (Czech Republic/OTE focus). Architecting automated intraday and day-ahead trading workflows with sub-second order execution, managing 3,000 MWh of daily order volume: real-time market data ingestion, price signal processing, algorithmic order generation. Collaborating directly with energy traders and quant analysts to translate strategies into production systems, working on trading strategy implementation and position management. Building high-throughput data pipelines (Kafka, Spark) for real-time market data and trade execution monitoring.
+
+          **Tech:** Java 21/23/25, Spring Boot, Python, R, Spark, Kafka, TigerData (time series DB), AWS (ECS, Lambda, EMR), S3
+
+      - layout: left
+        title: Zmudri.sk (NGO)
+        link: zmudri.sk
+        sub_title: Senior IT Consultant (Voluntary)
+        caption: June 2025 - September 2025
         quote: >
-          Solving 21st century energy problems by making the green technologies more accessible and affordable with latest advancements in the AI and data processing
-        description: | # this will include new lines to allow paragraphs
-            Software development in the energy industry from the bottom to the top - design, architecture, investigation of business processes, implementation, code reviews, CI/CD pipelines, deployment, production support, complex monitoring of deployed applications, etc.
-            
-            Technologies: Java 18, Spring Boot, Micronaut, Gams, Selenium, Kafka, Docker, PosgreSQL, TimescaleDB, R, Keras and Tensorflow (only DevOps and production support), Github Actions, AWS Stack, Terraform, Ansible, Prometheus, Grafana, ELK stack
-            
-            Projects:
+          Educational platform helping students and young people prepare for real-life topics that schools often do not fully cover
+        description: |
+          Pro bono engagement to stabilize and modernize the NGO's educational platform. Designed and implemented GitHub Actions CI/CD pipelines for automated testing, building and deployment. Migrated and upgraded AWS Lightsail infrastructure. Introduced project management and planning processes for a non-technical team. Led vendor evaluation — sourced candidates, conducted interviews, and managed the full platform handover to new contractors. Resulted in improved platform stability, fewer outages, and predictable cost and feature delivery.
 
-              - PX Plant - SaaS solution acting as the energy broker and aggregator using advanced analytics with the latest machine learning concepts and multiple data pipelines to optimize energy assets in real time. Based on the OPC Unified Architecture (UA), MODBUS, Java 18, R, Gams, Docker, etc.
+          **Tech:** AWS Lightsail, GitHub Actions, Docker
 
-              - PX Trade - SaaS solution that optimizes the day ahead and intraday energy trading based on various datasources. Used technologies: Java 16, R, Docker, Selenium, etc.
+      - layout: left
+        title: Freelance
+        sub_title: Senior Software Engineer
+        caption: June 2024 - Present | Bratislava
+        quote: >
+          Delivering end-to-end solutions across insurance, telecom, and SaaS — from architecture to production
+        description: |
+          - **DAM (Generali Czech Insurance)** — Transaction validation/approval for institutional portfolios. Kotlin, Ktor, PostgreSQL, OAuth2/Keycloak.
+          - **Virtual Assistant (O2 Slovakia)** — Chatbot solution. Java 11, JavaScript, Kafka, Docker/Kubernetes.
+          - **CrewTactix** — SaaS workforce management. Kotlin, Spring Boot, PostgreSQL, Azure.
 
-              - PowereX market platform pilot - SaaS solution for peer to peer energy sharing using advanced analytics with the latest machine learning concepts and distributed architecture. Based on the microservices, Vue.js, Java 11, Kafka, Docker, R, etc.
+          **Tech:** Kotlin, Ktor, Spring Boot, Java 11, JavaScript, Kafka, PostgreSQL, Docker, Kubernetes, Azure, OAuth2/Keycloak
+
+      - layout: left
+        title: PX Energy / PowereX j.s.a.
+        sub_title: Senior Software Engineer – Algorithmic Trading & Energy Optimization
+        caption: September 2019 - April 2024 | Bratislava
+        description: |
+          **PX Trade** — Algorithmic trading platform for day-ahead and intraday EU energy markets. Automated trading logic for bid/offer generation, real-time position tracking, execution scheduling. Collaborated closely with AI/quant teams developing trading algorithms to integrate and validate strategies in production. Built automated market data collection pipelines. Tech: Java 8/11/16, R, Docker, Selenium, PostgreSQL, Kafka.
+
+          **PX Plant** — Real-time trading optimization platform (energy broker/aggregator). ML-driven forecasting, OPC-UA/MODBUS integration for live asset data. Supported Keras/TensorFlow production pipelines. Tech: Java 17, R, GAMS, Docker, Kafka, AWS.
+
+          **PowereX Market Platform (Pilot)** — Distributed peer-to-peer energy trading platform, microservice architecture. Tech: Java 11, Vue.js, Kafka, Docker, R.
+
+          **Tech:** Java 8/11/16/17, Spring Boot, Kafka, PostgreSQL, TimescaleDB, R, GAMS, Keras, TensorFlow, Selenium, Vue.js, Docker, AWS, Prometheus, Grafana
 
       - layout: left
         title: JUMP-TECH s.r.o.
         sub_title: Senior Java Developer
         caption: April 2020 - August 2020
         quote: >
-          Usual corporate contract in banking 
-        description: | # this will include new lines to allow paragraphs
-            Subcontract for delivering DMS (document management system) application in the bank industry with batch processing of documents, validation, conversion and antivirus control. Based on Java 8, Maven, Spring Boot, Spring Batch, OracleDB, Docker, etc.  
+          Usual corporate contract in banking
+        description: |
+          Document management system for banking — batch processing, validation, conversion and antivirus control.
+
+          **Tech:** Java 8, Spring Boot, Spring Batch, Maven, OracleDB, Docker
 
       - layout: left
         title: Softec s.r.o.
-        link: softec.sk
-        # link_text: boringcompany.com
         sub_title: Junior Software Developer
         caption: February 2018 - July 2019
         quote: >
           First contact with the usual corporate environment
-        description: | # this will include new lines to allow paragraphs
-            Responsible for:
-              - design, development, delivery and maintenance of Big Data applications based on Kafka and Hadoop (Java, Scala)
-              - maintenance and delivery of applications on platforms OpenShift and DC/OS
-              - DevOps based on Jenkins and GitLab CI/CD
-              - monitoring of infrastructure and delivered solutions (Prometheus, Grafana)
+        description: |
+          Big Data application development, platform delivery on OpenShift and DC/OS, CI/CD pipelines, infrastructure monitoring.
+
+          **Tech:** Java, Scala, Kafka, Hadoop, Jenkins, GitLab CI/CD, Prometheus, Grafana
 
       - layout: left
-        title: N I K É s.r.o.
-        link: nike.sk
-        # link_text: boringcompany.com
+        title: "N I K \xC9 s.r.o."
         sub_title: Junior Backend Developer
         caption: June 2017 - February 2018
         quote: >
           Largest betting company in Slovakia
-        description: | # this will include new lines to allow paragraphs
-            Responsible for:
-              - maintenance and development of backend modules (Perl, RabbitMQ, MySQL)
-              - automated deployment of developed projects (SaltStack (Salt, Pillar, Vagrant))
-              - synchronization and maintenance of databases (Flyway, MySQL)
-              - gradual implementation of monitoring (Prometheus, Grafana)
+        description: |
+          Backend module development, automated deployment, database maintenance, and monitoring implementation.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+          **Tech:** Perl, RabbitMQ, MySQL, Flyway, SaltStack, Prometheus, Grafana
+
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Slovak University of Technology
-        caption: 2019
-        sub_title: MSc Computer Science
+        caption: 2017 - 2019
+        sub_title: "Engineer's Degree, Intelligent Software Systems"
         quote: >
-          Faculty of Informatics and Information Technologies, field of study: Intelligent Software Systems
-        description: | # this will include new lines to allow paragraphs
-            - Master thesis: The modeling of human visual attention using computer vision and articial intelligence
-            - TP Cup 2018 winner with team project: Behametrics - behavioral biometrics on mobile devices
+          Faculty of Informatics and Information Technologies
+        description: |
+          - Master thesis: The modeling of human visual attention using computer vision and artificial intelligence
+          - TP Cup 2018 winner with team project: Behametrics - behavioral biometrics on mobile devices
 
       - layout: left
         title: Slovak University of Technology
-        caption: 2017
-        sub_title: BSc Computer Science
+        caption: 2014 - 2017
+        sub_title: "Bachelor's Degree, Informatics"
         quote: >
-          Faculty of Informatics and Information Technologies, field of study: Informatics
-        description: | # this will include new lines to allow paragraphs
-            - Bachelor thesis: Determination of the eye-catching parts in graphical interfaces
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering some of my other interests and hobbies are:
-      - Climbing
-      - [Ski mountaineering](https://www.youtube.com/watch?v=emjun1CCX5w)
-      - Mountain biking
-      - Book reading
+          Faculty of Informatics and Information Technologies
+        description: |
+          Bachelor thesis: Determination of the eye-catching parts in graphical interfaces
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
